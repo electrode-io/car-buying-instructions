@@ -105,7 +105,7 @@ In this app, we will be using the `react-modal` and `react-icons` modules for mo
 $ npm install --save react-modal react-icons
 ```
 
-We have combined all the css styles into a single file. You just need create a new file `src/client/styles/car-buying.css` and copy the following content inside: [car-buying.css](./src/client/styles/car-buying.css)
+We have combined all the css styles into a single file. You just need create a new file `src/client/styles/car-buying.css` and copy the following content inside: [car-buying.css](https://github.com/electrode-io/car-buying/blob/master/src/client/styles/car-buying.css)
 
 ### Building the home page
 
@@ -113,7 +113,7 @@ Now, let's start building our car-buying app. Here is the high level description
 
 ![alt text][component-structure]
 
-In your project folder, look for the file: `src/client/components/home.jsx`, replace the contents of that file with: [home.jsx](./src/client/components/home.jsx).  
+In your project folder, look for the file: `src/client/components/home.jsx`, replace the contents of that file with: [home.jsx](https://github.com/electrode-io/car-buying/blob/master/src/client/components/home.jsx).  
 
 -   `home.jsx` is the main page of your app.  It allows the user to pick from buyer or dealer roles.  We will return a React component that contains the Buyer and Dealer buttons.
 
@@ -136,18 +136,18 @@ We now need to create components for the car buyer and dealer role.
 Now Let's build!
 
 -   Create a file named `user.jsx` under directory `src/client/components`
--   Copy the following content inside: [user.jsx](./src/client/components/user.jsx)
+-   Copy the following content inside: [user.jsx](https://github.com/electrode-io/car-buying/blob/master/src/client/components/user.jsx)
 
 ### Build the User Banner
 
 User Banner serves as a header for the user page.
 
 -   Create a file named `banner.jsx` under directory `src/client/components`
--   Copy the following content inside: [banner.jsx](./src/client/components/banner.jsx)
+-   Copy the following content inside: [banner.jsx](https://github.com/electrode-io/car-buying/blob/master/src/client/components/banner.jsx)
 
 ### Build the Car Inventory
 
-The car inventory is a collection of the `Car` component, which is used to display information about a car. We will use this component in both User and Dealer components. Create a file named `car.jsx` under the directory `src/client/components`, copy the following content inside: [car.jsx](./src/client/components/car.jsx)
+The car inventory is a collection of the `Car` component, which is used to display information about a car. We will use this component in both User and Dealer components. Create a file named `car.jsx` under the directory `src/client/components`, copy the following content inside: [car.jsx](https://github.com/electrode-io/car-buying/blob/master/src/client/components/car.jsx)
 
 -   We can now add routes to connect the buttons on the homepage to the appropriate views.
 -   Modify the `routes.jsx` file under `src/client` with the following code.
@@ -184,7 +184,7 @@ Here is the flow for the data:
 
 ![Data Flow][flow]
 
--   Please create a file called `vehicles.js` under `src/server/plugins` with content from [here](./src/server/plugins/vehicles.js).
+-   Please create a file called `vehicles.js` under `src/server/plugins` with content from [here](https://github.com/electrode-io/car-buying/blob/master/src/server/plugins/vehicles.js).
 -   This file exposes the `/vehicles` endpoint which is used to get the list of vehicles present in the inventory.
 -   Register this plugin in `config/default.js` under `plugins` field:
 
@@ -262,7 +262,7 @@ Electrode is already setup to run tests along with `eslint` checks. We have alre
 -   Running the command `npm test` will run the tests for you.
 -   We want you to add a test for the `user.jsx` component that you just created. 
 -   Add a new file `user.spec.jsx` under `test/client/components`.
--   You can start by adding a basic test similar to the `home.spec.jsx` and refer [here](./test/client/components/user.spec.jsx) for help.
+-   You can start by adding a basic test similar to the `home.spec.jsx` and refer [here](https://github.com/electrode-io/car-buying/blob/master/test/client/components/user.spec.jsx) for help.
 
 Congratulations! You've finished the main focus of today's workshop. If you have time or want to try it later, you can try some coding on your own :-)
 
