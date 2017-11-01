@@ -39,7 +39,7 @@ When the instructions refers to "go back to the working folder", this will be th
 ignite generate-app
 ```
 
--   You will be prompted for information about your app. 
+-   You will be prompted for information about your app.
 
     -   The only information you need to enter is the app name.  Enter `car-buying` for that.
     -   You can press `<Enter>` to use the defaults for the rest of the prompts.
@@ -91,7 +91,7 @@ It should reply with: `Hello! from the car buying service.`
 
 > The server needs to be running for the duration of the exercise. You can now switch back to your electrode generated app directory.
 >
-> Note: For windows, you will need to have curl installed seperately for the above command.
+> Note: For windows, you will need to have curl installed separately for the above command.
 
 ## Building your car-buying app
 
@@ -242,7 +242,7 @@ module.exports = req => {
 };
 ```
 
-> Notice how we are populating the initial redux store with `creatReduxStore` and `storeInitalizer` functions. We are setting the initial state with a list of vehicles to populate the user view. We are calling the `/vehicles` api created in the `vehicles.js` plugin created in the previous step. This is the data being populated on the server side. Check out how this data is consumed on the client side in `src/client/app.jsx`.
+> Notice how we are populating the initial redux store with `createReduxStore` and `storeInitializer` functions. We are setting the initial state with a list of vehicles to populate the user view. We are calling the `/vehicles` api created in the `vehicles.js` plugin created in the previous step. This is the data being populated on the server side. Check out how this data is consumed on the client side in `src/client/app.jsx`.
 
 Since we do not have any actions for now, please delete the contents from the file `src/client/actions/index.js` and update the file `src/client/reducers.jsx` with:
 
@@ -257,10 +257,10 @@ export default combineReducers({});
 
 ### Testing
 
-Electrode is already setup to run tests along with `eslint` checks. We have already added a basic test for `home.jsx`. 
+Electrode is already setup to run tests along with `eslint` checks. We have already added a basic test for `home.jsx`.
 
 -   Running the command `npm test` will run the tests for you.
--   We want you to add a test for the `user.jsx` component that you just created. 
+-   We want you to add a test for the `user.jsx` component that you just created.
 -   Add a new file `user.spec.jsx` under `test/client/components`.
 -   You can start by adding a basic test similar to the `home.spec.jsx` and refer [here](./test/client/components/user.spec.jsx) for help.
 
@@ -278,7 +278,7 @@ From what we've already learned above on how to fetch the vehicles inventory and
 
 And here is what you need to do:
 
--   Add a `transactions.js` file under server's plugins, you will have APIs to get, create, and update transactions. These APIs will call the mockserver endpoints similar to the `vehicles` plugin. API endpoints available in the mockserver are:
+-   Add a `transactions.js` file under server's plugins, you will have APIs to get, create, and update transactions. These APIs will call the mock server endpoints similar to the `vehicles` plugin. API endpoints available in the mock server are:
 
 | Path                | Method | Purpose                                      |
 | ------------------- | ------ | -------------------------------------------- |
@@ -288,7 +288,7 @@ And here is what you need to do:
 | /update-transaction | POST   | Update a transaction.                        |
 
 -   Add views under `src/client/components` that display our transactions loaded from the service.
--   Make sure the data is populated on the server side, before the view is rendered, similar to how vehicles was populated in the `storeInitalizer` function.
+-   Make sure the data is populated on the server side, before the view is rendered, similar to how vehicles was populated in the `storeInitializer` function.
 
 ## Challenge
 
