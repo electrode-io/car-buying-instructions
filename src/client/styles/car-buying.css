@@ -1,0 +1,380 @@
+/* User CSS */
+.userView {
+  align-items: top;
+}
+
+.history,
+.listings {
+  float: right;
+  margin: 0 2%;
+}
+
+.userView .filterBox {
+  width: 19%;
+  border: 2px solid grey;
+  height: 100vh;
+}
+
+.userView .cars-list {
+  width: 100%;
+}
+
+/* Negotiation Box*/
+.negotiation {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
+}
+
+.negotiation .expectation {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-left: 10%;
+}
+.negotiation .expectation .button {
+  margin: 2% 2% 0 0;
+  float: left;
+}
+.negotiation .expectation .button:disabled {
+  opacity: 0.5;
+}
+
+.negotiation .expectation textarea {
+  resize: none;
+  min-height: 130px;
+}
+
+.negotiation .expectation .acceptedIcon {
+  color: #007f00;
+  font-size: 3em;
+  margin-right: 10px;
+}
+
+.negotiation .vehicle-info {
+  margin-top: 2%;
+}
+
+.negotiation .vehicle-info .vehicle-info-text {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.negotiation .vehicle-info .vehicle-info-text .vehicle-info-text-content {
+  text-align: left;
+  display: inline-block;
+  width: 44%;
+  background-color: #ececec;
+  border-radius: 5%;
+  padding: 3%;
+}
+
+.negotiation
+  .vehicle-info
+  .vehicle-info-text
+  .vehicle-info-text-content
+  .vehicle-info-text-comments {
+  font-size: 0.8em;
+  display: inline-block;
+  text-indent: 1em;
+}
+
+.negotiation .expectation table tr {
+  vertical-align: baseline;
+}
+
+.negotiation .expectation table tr th,
+.negotiation .expectation table tr td {
+  padding: 10px 10px 0;
+}
+
+.negotiation button {
+  color: white;
+  background-color: #818387;
+}
+
+/* Modal Box */
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px;
+}
+
+.backdrop .modalbox {
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2%;
+  min-height: 100px;
+}
+.backdrop .modalbox button.footer {
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+/* Custom CSS*/
+img {
+  vertical-align: text-bottom;
+}
+
+.roleButton,
+.roleButton:hover {
+  color: white;
+  border: none;
+  width: 200px;
+}
+
+.roleButton.user {
+  background-image: linear-gradient(to right, #dd5e89 0%, #f7bb97 51%, #dd5e89 100%);
+}
+.roleButton.user:hover {
+  background-image: linear-gradient(to right, #f7bb97 0%, #dd5e89 51%, #f7bb97 100%);
+}
+
+.roleButton.dealer {
+  background-image: linear-gradient(to right, #77a1d3 0%, #79cbca 51%, #77a1d3 100%);
+}
+.roleButton.dealer:hover {
+  background-image: linear-gradient(to right, #79cbca 0%, #77a1d3 51%, #79cbca 100%);
+}
+
+.demoAppContainer h2 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+/* Dealer CSS */
+.dealerView {
+  width: 100%;
+  align-items: top;
+}
+
+.dealerView .tabs {
+  margin: 0;
+  width: 100%;
+}
+
+.dealerView .tabs .filter {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.dealerView .tabs button {
+  padding: 0;
+  width: 15em;
+  float: right;
+  margin: 0 2%;
+}
+
+.dealerView .tabs .cars-list img {
+  width: 33%;
+}
+
+/* Car CSS */
+.car {
+  width: 100%;
+  align-items: left;
+  margin: 0 0 5px 0;
+  padding: 15px 0;
+}
+
+.car .car-img,
+.car .car-info,
+.car .car-price {
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+
+.car .left-align-wrapper {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2em;
+  padding-left: 10%;
+}
+
+.car .car-img {
+  width: 33%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.car .car-title {
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.car .car-price .car-price-sale {
+  color: #dd5e89;
+  font-weight: 800;
+  font-size: 1.6em;
+}
+
+.car .car-price button {
+  border: none;
+  color: white;
+  background-color: #818387;
+}
+
+/* Section CSS */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.flex-container .cars-list {
+  width: 100%;
+}
+
+.display-table {
+  margin: 5em;
+}
+
+/* Car Details*/
+.car-details {
+  width: 100%;
+}
+
+.car-details img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+}
+
+.contact-dealer {
+  background-color: #ececec;
+  width: 20%;
+  height: 100vh;
+  padding: 2%;
+}
+.contact-dealer table tbody tr td input,
+.contact-dealer textarea {
+  width: 90%;
+}
+.contact-dealer button {
+  float: right;
+  background-color: #818387;
+  color: white;
+}
+.contact-dealer table tbody tr th,
+.contact-dealer table tbody tr td,
+.car-details .car-details-info .info-left {
+  font-size: 1.3em;
+}
+
+.car-details-info {
+  width: 72%;
+  margin: 2% 2% 0 2%;
+}
+.car-details .car-details-info .info-left,
+.car-details .car-details-info .info-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.car-details .car-details-info .info-right {
+  font-size: 2em;
+  font-weight: 800;
+  color: #dd5e89;
+  float: right;
+  margin-right: 5%;
+}
+
+/* Banner CSS */
+.anim-banner {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.anim-banner.user-banner {
+  background-color: #dd5e89;
+}
+.anim-banner.dealer-banner {
+  background-color: #77a1d3;
+}
+
+.anim-banner .title {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  font-weight: 100;
+}
+.anim-banner .title h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.anim-banner .slide {
+  animation-name: slide;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.anim-banner .slide2 {
+  animation-name: slide;
+  animation-duration: 200s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.anim-banner .slide3 {
+  animation-name: slide;
+  animation-duration: 150s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.anim-1 {
+  height: inherit;
+  width: 100%;
+  position: absolute;
+  background-image: url("https://zoo.azurewebsites.net/Custom/Themes/SimpleBlog/img/effect_3.png");
+}
+.anim-2 {
+  height: inherit;
+  width: 100%;
+  position: absolute;
+  background-image: url("https://zoo.azurewebsites.net/Custom/Themes/SimpleBlog/img/effect_2.png");
+}
+.anim-3 {
+  height: inherit;
+  width: 100%;
+  position: absolute;
+  background-image: url("https://zoo.azurewebsites.net/Custom/Themes/SimpleBlog/img/effect_1.png");
+}
+
+@keyframes slide {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
