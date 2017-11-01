@@ -20,6 +20,8 @@ ignite check-nodejs
 
 ![alt text][check-nodejs]
 
+-   We recommend that you also have a github account, learn how to set it up [here](https://help.github.com/articles/set-up-git/). 
+
 ## Getting Started
 
 Let's get started.  For the duration of this workshop, we will be creating files and directories under a single working folder `walmartlabs-wwc`
@@ -70,6 +72,7 @@ The mock server is a simple NodeJS Hapi server that simulates services needed in
 ```bash
 git clone https://github.com/electrode-io/car-buying-service.git
 ```
+> If you do not have a git account to clone the repo, you can download a zip for the repo from [here](https://github.com/electrode-io/car-buying-instructions/issues/3).
 
 After cloning the repo, run the following commands to get the server running.
 You can run these in a separate terminal.
