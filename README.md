@@ -20,7 +20,7 @@ ignite check-nodejs
 
 ![alt text][check-nodejs]
 
--   We recommend that you also have a github account, learn how to set it up [here](https://help.github.com/articles/set-up-git/). 
+-   We recommend that you also have a github account, learn how to set it up [here](https://help.github.com/articles/set-up-git/).
 
 ## Getting Started
 
@@ -98,7 +98,7 @@ It should reply with: `Hello! from the car buying service.`
 
 ## Building your car-buying app
 
-Let's build our car-buying app.
+Please go to your `car-buying` directory and let's build our car-buying app.
 
 ### Installing prerequisites
 
