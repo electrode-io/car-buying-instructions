@@ -250,8 +250,16 @@ module.exports = req => {
 Since we do not have any actions for now, please delete the contents from the file `src/client/actions/index.js` and update the file `src/client/reducers.jsx` with:
 
 ```js
-import {combineReducers} from "redux";
-export default combineReducers({});
+import { combineReducers } from "redux";
+
+const cars = (store = {}) => {
+  return store;
+};
+
+export default combineReducers({
+  cars
+});
+
 ```
 
 -   Re-start the server and go to `http://localhost:3000/user`, you should see:
