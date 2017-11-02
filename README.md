@@ -252,7 +252,7 @@ Since we do not have any actions for now, please delete the contents from the fi
 ```js
 import { combineReducers } from "redux";
 
-const cars = (store = {}) => {
+const cars = (store = []) => {
   return store;
 };
 
