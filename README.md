@@ -230,7 +230,7 @@ function createReduxStore(req, match) {
         return JSON.parse(res.payload);
       })
       .catch(() => {
-        return {};
+        return [];
       })
   ]).then(([vehicles]) => storeInitializer(req, vehicles));
 }
