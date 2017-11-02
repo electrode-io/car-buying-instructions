@@ -247,7 +247,7 @@ module.exports = req => {
 
 > Notice how we are populating the initial redux store with `createReduxStore` and `storeInitializer` functions. We are setting the initial state with a list of vehicles to populate the user view. We are calling the `/vehicles` api created in the `vehicles.js` plugin created in the previous step. This is the data being populated on the server side. Check out how this data is consumed on the client side in `src/client/app.jsx`.
 
-Since we do not have any actions for now, please delete the contents from the file `src/client/actions/index.js` and update the file `src/client/reducers.jsx` with:
+Since we do not have any actions for now, please delete the contents from the file `src/client/actions/index.js` and update the file `src/client/reducers/index.jsx` with:
 
 ```js
 import { combineReducers } from "redux";
